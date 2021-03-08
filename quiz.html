@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz page</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+
+<body>
+    <!-----------------------------------------------Instructions------------------------------------------------>
+    <div class="ins-box custom-box ">
+        <h3>INSTRUCTIONS : </h3>
+        <p>1. Total No Of Questions:<span class="total-question">10</span></p>
+        
+        <p>2. There is <b>Negative Marking.</b></p>
+        <p>3. For each correct answer<b> (+1) </b> will be awarded. </p>
+        <p>4. For each wrong answer<b> (-1) </b> will be deducted.</p>
+        <p>5. To View Results Click on <b>FINISH -----> SCORES</b></p>
+        <p>5. To Retry Quiz on Click on <b>RETRY</b></p>
+        <a href="#q1" onmousedown="bleep.play()"><button type="button" class="btn">Start Quiz</button></a>
+    </div>
+    <!------------Q1--------->
+    <div class="quiz-box custom-box">
+        <form name="quiz" id="quiz">
+            <div class="heading">
+                <header>
+                    <div class="ques-no" id="q1">
+                        Question 1
+                    </div>
+                    <div class="timer">
+                        <div class="timetext">Time Left</div>
+                        <div class="timesec">∞</div>
+                    </div>
+                </header>
+            </div>
+            <div class="ques-text">
+                What is 2+3=?
+            </div>
+            <div class="option-container">
+                <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques1" value="ONE">A. ONE</div>
+                <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques1" value="TWO">B. TWO</div>
+                <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques1" value="THREE">C. THREE</div>
+                <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques1" value="FIVE">D. FIVE</div>
+
+            </div>
+           
+            <a href="#q2" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+
+
+    </div>
+
+    <!-----------Q2------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q2">
+                    Question 2
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            What is 5+6 =?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques2" value="ONE" >A. ONE</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques2" value="TWO" >B. TWO</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques2" value="ELEVEN" >C. ELEVEN</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques2" value="FIVE" >D. FIVE</div>
+
+        </div>
+        <span>
+            <!--div class="next-que-btn"-->
+            <a href="#q3" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+            <!--div class="prev-que-btn"-->
+            <a href="#q1" onmousedown="bleep.play()"><button type="button" class="btn">PREVIOUS</button></a>
+        </span>
+    </div>
+    <!-----------Q3------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q3">
+                    Question 3
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            Which IS 10 + 6= ?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques3" value="16" >A. 16</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques3" value="15" >B. 15</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques3" value="12" >C. 12</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques3" value="11" >D. 11</div>
+
+        </div>
+        <span>
+            <!--div class="next-que-btn"-->
+            <a href="#q4" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+            <!--div class="prev-que-btn"-->
+            <a href="#q2" onmousedown="bleep.play()"><button type="button" class="btn">PREVIOUS</button></a>
+        </span>
+
+    </div>
+    <!-----------Q4------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q4">
+                    Question 4
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            What is (20+3-53)=?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques4" value="- 30">A. - 30</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques4" value="+ 30">B. + 30</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques4" value="- 40">C. - 40</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques4" value="+ 40">D. + 40</div>
+
+        </div>
+        <span>
+            <!--div class="next-que-btn"-->
+            <a href="#q5" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+            <!--div class="prev-que-btn"-->
+            <a href="#q3" onmousedown="bleep.play()"><button type="button" class="btn">PREVIOUS</button></a>
+        </span>
+
+    </div>
+    <!-----------Q5------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q5">
+                    Question 5
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            What is (20 + 30 - 40) &divide; 2 = ?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques5" value="ONE">A. ONE</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques5" value="TWO">B. TWO</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques5" value="THREE">C. THREE</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques5" value="FIVE">D. FIVE</div>
+
+        </div>
+        <span>
+            <!--div class="next-que-btn"-->
+            <a href="#q6" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+            <!--div class="prev-que-btn"-->
+            <a href="#q4" onmousedown="bleep.play()"><button type="button" class="btn">PREVIOUS</button></a>
+        </span>
+
+    </div>
+    <!-----------Q6------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q6">
+                    Question 6
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            What is (2 &times; 3) &divide; 2=?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques6" value="ONE">A. ONE</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques6" value="TWO">B. TWO</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques6" value="THREE">C. THREE</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques6" value="FIVE">D. FIVE</div>
+
+        </div>
+        <span>
+            <!--div class="next-que-btn"-->
+            <a href="#q7" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+            <!--div class="prev-que-btn"-->
+            <a href="#q5" onmousedown="bleep.play()"><button type="button" class="btn">PREVIOUS</button></a>
+        </span>
+
+    </div>
+    <!-----------Q7------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q7">
+                    Question 7
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            What is 2 &times; 3=?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques7" value="ONE">A. ONE</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques7" value="SIX">B. SIX</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques7" value="THREE">C. THREE</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques7" value="FIVE">D. FIVE</div>
+
+        </div>
+        <span>
+            <!--div class="next-que-btn"-->
+            <a href="#q8" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+            <!--div class="prev-que-btn"-->
+            <a href="#q6" onmousedown="bleep.play()"><button type="button" class="btn">PREVIOUS</button></a>
+        </span>
+
+    </div>
+    <!-----------Q8------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q8">
+                    Question 8
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            What is 30-3=?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques8" value="+ 33">A. + 33</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques8" value="- 27">B. - 27</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques8" value="- 33">C. - 33</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques8" value="+ 27">D. + 27</div>
+
+        </div>
+        <span>
+            <!--div class="next-que-btn"-->
+            <a href="#q9" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+            <!--div class="prev-que-btn"-->
+            <a href="#q7" onmousedown="bleep.play()"><button type="button" class="btn">PREVIOUS</button></a>
+        </span>
+    </div>
+    <!-----------Q9------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q9">
+                    Question 9
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            What is 20 &divide; 5 =?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques9" value="ONE">A. ONE</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques9" value="TWO">B. TWO</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques9" value="THREE">C. THREE</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques9" value="FOUR">D. FOUR</div>
+
+        </div>
+        <span>
+            <!--div class="next-que-btn"-->
+            <a href="#q10" onmousedown="bleep.play()"><button type="button" class="btn">NEXT</button></a>
+
+            <!--div class="prev-que-btn"-->
+            <a href="#q8" onmousedown="bleep.play()"><button type="button" class="btn">PREVIOUS</button></a>
+        </span>
+
+    </div>
+    <!-----------Q10------------>
+    <div class="quiz-box custom-box">
+        <div class="heading">
+            <header>
+                <div class="ques-no" id="q10">
+                    Question 10
+                </div>
+                <div class="timer">
+                    <div class="timetext">Time Left</div>
+                    <div class="timesec">∞</div>
+                </div>
+            </header>
+        </div>
+        <div class="ques-text">
+            What is 25+89=?
+        </div>
+        <div class="option-container">
+            <div class="option" id="o1" onmousedown="bleep.play()"><input type="radio" name="ques10" value="119">A. 119</div>
+            <div class="option" id="o2" onmousedown="bleep.play()"><input type="radio" name="ques10" value="115">B. 115</div>
+            <div class="option" id="o3" onmousedown="bleep.play()"><input type="radio" name="ques10" value="114">C. 114</div>
+            <div class="option" id="o4" onmousedown="bleep.play()"><input type="radio" name="ques10" value="NONE OF THESE">D. NONE OF THESE</div>
+
+        </div>
+        <!------BUTTONS AT LAST------------------->
+        <div class="next-que-btn">
+            <span><button type="button" class="btn" onclick="check()" onmousedown="bleep.play()">FINISH</button>
+
+                <a href="index.html" onmousedown="bleep.play()"><button type="button" class="btn">HOME PAGE</button></a>
+
+            
+            <a href="#finalresult"><button type="button" class="btn" id="seeresults" onmousedown="bleep.play()">SCORES</button></a>
+            </span>
+        </div>
+        </form>
+
+
+
+    </div>
+    <!--------------Finalresultrow--------------------->
+    <div class="showresult">
+        <p id="finalresult" color="black"></p>
+        <center><a href="#q1" onmousedown="bleep.play()"><input type="button" value="RETRY" class="retry"
+            onClick="window.location.reload(false)"></a></center>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

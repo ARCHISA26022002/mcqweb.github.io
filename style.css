@@ -1,0 +1,73 @@
+/***********Font style******************/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+body{
+    background-color:black;
+    background-image:url("math6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family:'Akaya Telivigala' , cursive;
+}
+/*****************************heading**************************/
+h1{
+    color: blanchedalmond;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    width:50rem;
+    text-align: center;
+    text-shadow: -2.5px 0 greenyellow, 0 2.5px greenyellow, 2.5px 0 greenyellow, 0 -2.5px greenyellow;
+    text-decoration: none;
+    margin-top:5rem;
+    background: black;
+    border-radius: 20px;
+}
+
+/**********************container settings*********************/
+.container{
+    height:50vw;
+    width:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    max-width: 80 rem;
+    margin:0 auto;
+    
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+/**************************Button*******************************/
+.btn{
+    font-size: 2rem;
+    padding: 2rem;
+    width:30rem;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+    color:greenyellow;
+    background: cornsilk;
+    border-radius: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem greenyellow;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}

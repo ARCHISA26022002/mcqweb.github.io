@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+/***********************body*************************/
+body{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+   
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family:'Akaya Telivigala' , cursive;
+    outline:none;
+    
+}
+/****************instruction box****************************/
+.custom-box{
+    width:800px;
+    height:650px;
+    margin:40px auto;
+    background-image:url("math2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:30px;
+    border-radius:20px;
+    color: blanchedalmond;
+}
+/*****************************************Question intro****************************/
+.heading header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
+    
+}
+.heading header .ques-no{
+    font-size: 35px;
+    font-weight: 600;
+    color:rgba(129, 207, 224, 1);
+    
+    padding-bottom: 10px;
+    line-height: 25px;
+    
+}
+/*******************************timer*******************************/
+.heading header .timer {
+display: flex;
+align-items: center;
+justify-content: center!important;
+justify-content: space-between!important;
+width: 145px;
+height: 60px;
+border-radius: 10px;
+background: rosybrown;
+
+}
+.heading header .timer .timetext{
+    font-weight: 500;
+    font-size: 20px;
+    user-select: none;
+}
+.heading header .timer .timesec{
+    font-size: 20px;
+    font-weight: 500;
+    color:blanchedalmond;
+    
+    height: 30px;
+    width:55px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    
+}
+/****************instructions************************/
+.ins-box h3{
+    font-weight: 500;
+}
+.ins-box .btn{
+    margin-top: 25px;
+}
+.btn{
+    padding:15px 45px;
+    background-color:#FFE5CC;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    margin: auto;
+    display: inline-block;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(129, 207, 224, 1);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+/*************************Question***********************/
+.quiz-box{
+    width:800px;
+    height:650px;
+    margin:40px auto;
+    background-image:linear-gradient(black,white)!important;
+    padding:30px;
+    border-radius:20px;
+    color: blanchedalmond;
+}
+
+
+
+.quiz-box .ques-text{
+    font-size: 40px;
+    font-weight: 400;
+    color: blanchedalmond;
+    padding: 20px 0;
+    line-height: 28px;
+    margin: 0;
+}
+/****************************OPTION STYLING*******************************/
+.quiz-box .option-container .option{
+    background-color: honeydew;
+    
+    padding:15px;
+    font-size:20px;
+    line-height: 25px;
+    color:black;
+    border-radius:5px;
+    margin-bottom: 15px;
+    cursor:pointer;
+}
+
+.quiz-box .option-container #o1:hover{
+    background-image:linear-gradient(rgba(30, 139, 195, 1),white);
+}
+.quiz-box .option-container #o2:hover{
+    background-image:linear-gradient(palevioletred,white);
+}
+.quiz-box .option-container #o3:hover{
+    background-image:linear-gradient(yellow,white);
+}
+.quiz-box .option-container #o4:hover{
+    background-image:linear-gradient(greenyellow,white);
+}
+.quiz-box .btn{
+    margin: 15px 0;
+}
+/**********finalresult*************************/
+#finalresult{
+    height: 200px;
+    margin: auto;
+    width: 30%;
+    color:black;
+    background-image:url(math7.jpg);
+    background-position: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center ;
+    
+}
+/******************retry button*****************/
+.retry{
+    padding:15px 45px;
+    background-color:#FFE5CC;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+.retry:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(129, 207, 224, 1);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+/*********************seeresults******************/
+#seeresults{
+    padding:15px 30px;
+    background-image: linear-gradient(rgba(30, 139, 195, 1),white);
+   
+    
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    margin: auto;
+    display: inline-block;
+} 
