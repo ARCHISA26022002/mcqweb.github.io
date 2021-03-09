@@ -23,7 +23,7 @@ h1{
     font-size: 5rem;
     margin-bottom: 5rem;
     padding: 2rem;
-    
+    margin: auto;
     text-align: center;
     text-shadow: -2.5px 0 greenyellow, 0 2.5px greenyellow, 2.5px 0 greenyellow, 0 -2.5px greenyellow;
     text-decoration: none;
