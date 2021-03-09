@@ -46,12 +46,12 @@ function check() {
         finalresult.innerHTML += f;
         
     }
-    else if (5 < f < 10) {
+    else if (f<=9 && f>5) {
 
         finalresult.innerHTML = ' CONGRATULATIONS!!!!!!!😀.<br>   Your Score is:  ';
         finalresult.innerHTML += f;
     }
-    else if (f==10) {
+    else if(f===10) {
 
         finalresult.innerHTML = ' WELL DONE!!!!!!!😀👍🏻. <br> Your Score is:  ';
         finalresult.innerHTML += f;
