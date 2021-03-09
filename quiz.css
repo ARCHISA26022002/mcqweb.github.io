@@ -148,6 +148,7 @@ background: rosybrown;
 }
 /**********finalresult*************************/
 #finalresult{
+    display: flex;
     height: 200px;
     margin: auto;
     width: 50%;
