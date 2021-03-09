@@ -24,7 +24,7 @@ h1{
     margin-bottom: 5rem;
     justify-content: center;
     align-items: center;
-    
+    display:flex;
     
     text-align: center;
     text-shadow: -2.5px 0 greenyellow, 0 2.5px greenyellow, 2.5px 0 greenyellow, 0 -2.5px greenyellow;
