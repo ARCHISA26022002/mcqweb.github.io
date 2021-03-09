@@ -149,9 +149,9 @@ background: rosybrown;
 /**********finalresult*************************/
 #finalresult{
     display: flex;
-    height: 200px;
+    
     margin: auto;
-    width: 50%;
+    
     color:black;
     background-image:url(math7.jpg);
     background-position: center;
