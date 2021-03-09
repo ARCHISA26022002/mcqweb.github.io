@@ -56,4 +56,8 @@ function check() {
         finalresult.innerHTML = ' WELL DONE!!!!!!!😀👍🏻. <br> Your Score is:  ';
         finalresult.innerHTML += f;
     }
-
+    let que_count=0;
+    let que_numb=1;
+    let counter;   
+    }
+    
